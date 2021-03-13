@@ -15,7 +15,7 @@ async function criarConexao(){
             constraint pizza_pk primary key (id)
         )`
     );*/
-    /*await con.query(
+    /* await con.query(
         `insert into pizza(tamanho, sabor) values 
             ($1, $2)`, 
             ['grande', 'frango']
